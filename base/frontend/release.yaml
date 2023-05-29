@@ -14,3 +14,5 @@ spec:
         kind: HelmRepository
         name: changeME
       version: 1.0.0
+    values:
+      portal-url: ENV_FE_ADMIN_URL

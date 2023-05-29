@@ -15,6 +15,4 @@ spec:
         name: changeME
       version: 1.0.0
   values:
-    grafanaGoogleAuth: 
-      enabled: true
-      rootUrl: ENV_GRAFANA_ROOT_RUL 
+      backend_url: ENV_BACKEND_API_URL 
