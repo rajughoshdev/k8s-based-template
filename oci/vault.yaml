@@ -1,0 +1,11 @@
+---
+apiVersion: external-secrets.io/v1beta1
+kind: SecretStore
+metadata:
+  name: external-secret-secretstore
+  namespace: ENV_NAMESPACE
+spec:
+  provider:
+    oracle:
+      vault: ENV_OCI_VAULT_ID
+      region: ENV_OCI_REGION 
